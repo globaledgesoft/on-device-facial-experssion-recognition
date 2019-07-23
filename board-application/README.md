@@ -18,6 +18,11 @@ To develop the Facial Expression Recognition application we make use of Snapdrag
 3. CuDNN (only for training on GPU)
 4. Python 2/3
 
+## How to download the data
+1. Go to the following kaggle link: https://www.kaggle.com/c/challenges-in-representation-learning-facial-expression-recognition-challenge/data and download the dataset .
+2. Extract and place the "fer2013.csv" file in the /data directory.
+
+
 ## How to train the model
 
 - Execute the following commands for installing the dependencies,
