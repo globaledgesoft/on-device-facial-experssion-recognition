@@ -32,7 +32,7 @@ Below are the items used in the project.
 5. Power Cable
 
 ## Hardware Setup
-![Qualcomm Snapdragon HDK image](https://git.globaledgesoft.com/root/OnDevice_FER_Project/blob/develop/AndroidApplication/app/src/main/res/drawable/snapdragon_hdk.jpg)
+![Qualcomm Snapdragon HDK image](https://github.com/jinka2015/on-device-facial-experssion-recognition/blob/master/android-app/app/src/main/res/drawable/snapdragon_hdk.jpg)
 
 ## How does it work?
 The application opens a camera preview(restricted only for front camera), collects all the frames, detects faces present in the frames, crops the face and converts it to bitmap. The network is built via Neural Network builder by passing model file in dlc format as the input. The face bitmap is then given to model for inference, which returns expression of captured faces.
@@ -49,4 +49,4 @@ The application opens a camera preview(restricted only for front camera), collec
 * Search the Facial Expression Recognition app in the app menu and launch the application
 
 ## Screenshot of the application
-<img src="https://git.globaledgesoft.com/root/OnDevice_FER_Project/raw/develop/AndroidApplication/app/src/main/res/drawable/fer_screenshot.png" widht=640 height=360 />
+<img src="https://github.com/jinka2015/on-device-facial-experssion-recognition/blob/master/android-app/app/src/main/res/drawable/fer_screenshot.png" widht=640 height=360 />
