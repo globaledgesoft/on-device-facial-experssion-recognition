@@ -1,0 +1,553 @@
+saaquib@saaquib:~/geWork/ML_AI/facialRecognition$ python fer_python4.py 
+WARNING:tensorflow:From fer_python4.py:88: conv2d (from tensorflow.python.layers.convolutional) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use keras.layers.conv2d instead.
+WARNING:tensorflow:From /usr/local/lib/python2.7/dist-packages/tensorflow/python/framework/op_def_library.py:263: colocate_with (from tensorflow.python.framework.ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Colocations handled automatically by placer.
+WARNING:tensorflow:From fer_python4.py:90: max_pooling2d (from tensorflow.python.layers.pooling) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use keras.layers.max_pooling2d instead.
+WARNING:tensorflow:From fer_python4.py:122: dense (from tensorflow.python.layers.core) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use keras.layers.dense instead.
+WARNING:tensorflow:From fer_python4.py:125: calling dropout (from tensorflow.python.ops.nn_ops) with keep_prob is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `rate` instead of `keep_prob`. Rate should be set to `rate = 1 - keep_prob`.
+setting up training images and labels
+setting up testing images and labels
+WARNING:tensorflow:From fer_python4.py:144: softmax_cross_entropy_with_logits (from tensorflow.python.ops.nn_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+
+Future major versions of TensorFlow will allow gradients to flow
+into the labels input on backprop by default.
+
+See `tf.nn.softmax_cross_entropy_with_logits_v2`.
+
+in cross_entropy
+in optimizer
+2019-06-17 16:05:06.238160: I tensorflow/core/platform/cpu_feature_guard.cc:141] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 FMA
+2019-06-17 16:05:06.242055: I tensorflow/core/platform/profile_utils/cpu_utils.cc:94] CPU Frequency: 3491810000 Hz
+2019-06-17 16:05:06.242193: I tensorflow/compiler/xla/service/service.cc:150] XLA service 0x283fb1d0 executing computations on platform Host. Devices:
+2019-06-17 16:05:06.242213: I tensorflow/compiler/xla/service/service.cc:158]   StreamExecutor device (0): <undefined>, <undefined>
+Epoch : 1/100, Step 100/448
+Epoch : 1/100, Step 200/448
+Epoch : 1/100, Step 300/448
+Epoch : 1/100, Step 400/448
+2019-06-17 16:06:47.754174: W tensorflow/core/framework/allocator.cc:124] Allocation of 1058439168 exceeds 10% of system memory.
+2019-06-17 16:06:48.681932: W tensorflow/core/framework/allocator.cc:124] Allocation of 529219584 exceeds 10% of system memory.
+At epoch : 1 	Accuracy on test-set is : 0.334076344967
+Epoch : 2/100, Step 100/448
+Epoch : 2/100, Step 200/448
+Epoch : 2/100, Step 300/448
+Epoch : 2/100, Step 400/448
+2019-06-17 16:08:29.753061: W tensorflow/core/framework/allocator.cc:124] Allocation of 1058439168 exceeds 10% of system memory.
+2019-06-17 16:08:30.681895: W tensorflow/core/framework/allocator.cc:124] Allocation of 529219584 exceeds 10% of system memory.
+At epoch : 2 	Accuracy on test-set is : 0.360546112061
+Epoch : 3/100, Step 100/448
+Epoch : 3/100, Step 200/448
+Epoch : 3/100, Step 300/448
+Epoch : 3/100, Step 400/448
+2019-06-17 16:10:15.885745: W tensorflow/core/framework/allocator.cc:124] Allocation of 1058439168 exceeds 10% of system memory.
+At epoch : 3 	Accuracy on test-set is : 0.38005015254
+Epoch : 4/100, Step 100/448
+Epoch : 4/100, Step 200/448
+Epoch : 4/100, Step 300/448
+Epoch : 4/100, Step 400/448
+At epoch : 4 	Accuracy on test-set is : 0.397603780031
+Epoch : 5/100, Step 100/448
+Epoch : 5/100, Step 200/448
+Epoch : 5/100, Step 300/448
+Epoch : 5/100, Step 400/448
+At epoch : 5 	Accuracy on test-set is : 0.404569506645
+Epoch : 6/100, Step 100/448
+Epoch : 6/100, Step 200/448
+Epoch : 6/100, Step 300/448
+Epoch : 6/100, Step 400/448
+WARNING:tensorflow:From /usr/local/lib/python2.7/dist-packages/tensorflow/python/training/saver.py:966: remove_checkpoint (from tensorflow.python.training.checkpoint_management) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use standard file APIs to delete files with this prefix.
+At epoch : 6 	Accuracy on test-set is : 0.416829198599
+Epoch : 7/100, Step 100/448
+Epoch : 7/100, Step 200/448
+Epoch : 7/100, Step 300/448
+Epoch : 7/100, Step 400/448
+At epoch : 7 	Accuracy on test-set is : 0.419336855412
+Epoch : 8/100, Step 100/448
+Epoch : 8/100, Step 200/448
+Epoch : 8/100, Step 300/448
+Epoch : 8/100, Step 400/448
+At epoch : 8 	Accuracy on test-set is : 0.425745338202
+Epoch : 9/100, Step 100/448
+Epoch : 9/100, Step 200/448
+Epoch : 9/100, Step 300/448
+Epoch : 9/100, Step 400/448
+At epoch : 9 	Accuracy on test-set is : 0.423516303301
+Epoch : 10/100, Step 100/448
+Epoch : 10/100, Step 200/448
+Epoch : 10/100, Step 300/448
+Epoch : 10/100, Step 400/448
+At epoch : 10 	Accuracy on test-set is : 0.423516303301
+Epoch : 11/100, Step 100/448
+Epoch : 11/100, Step 200/448
+Epoch : 11/100, Step 300/448
+Epoch : 11/100, Step 400/448
+At epoch : 11 	Accuracy on test-set is : 0.422680407763
+Epoch : 12/100, Step 100/448
+Epoch : 12/100, Step 200/448
+Epoch : 12/100, Step 300/448
+Epoch : 12/100, Step 400/448
+At epoch : 12 	Accuracy on test-set is : 0.431875169277
+Epoch : 13/100, Step 100/448
+Epoch : 13/100, Step 200/448
+Epoch : 13/100, Step 300/448
+Epoch : 13/100, Step 400/448
+At epoch : 13 	Accuracy on test-set is : 0.441627204418
+Epoch : 14/100, Step 100/448
+Epoch : 14/100, Step 200/448
+Epoch : 14/100, Step 300/448
+Epoch : 14/100, Step 400/448
+At epoch : 14 	Accuracy on test-set is : 0.448592931032
+Epoch : 15/100, Step 100/448
+Epoch : 15/100, Step 200/448
+Epoch : 15/100, Step 300/448
+Epoch : 15/100, Step 400/448
+At epoch : 15 	Accuracy on test-set is : 0.443298965693
+Epoch : 16/100, Step 100/448
+Epoch : 16/100, Step 200/448
+Epoch : 16/100, Step 300/448
+Epoch : 16/100, Step 400/448
+At epoch : 16 	Accuracy on test-set is : 0.459180831909
+Epoch : 17/100, Step 100/448
+Epoch : 17/100, Step 200/448
+Epoch : 17/100, Step 300/448
+Epoch : 17/100, Step 400/448
+At epoch : 17 	Accuracy on test-set is : 0.456394553185
+Epoch : 18/100, Step 100/448
+Epoch : 18/100, Step 200/448
+Epoch : 18/100, Step 300/448
+Epoch : 18/100, Step 400/448
+At epoch : 18 	Accuracy on test-set is : 0.46029534936
+Epoch : 19/100, Step 100/448
+Epoch : 19/100, Step 200/448
+Epoch : 19/100, Step 300/448
+Epoch : 19/100, Step 400/448
+At epoch : 19 	Accuracy on test-set is : 0.464474797249
+Epoch : 20/100, Step 100/448
+Epoch : 20/100, Step 200/448
+Epoch : 20/100, Step 300/448
+Epoch : 20/100, Step 400/448
+At epoch : 20 	Accuracy on test-set is : 0.454165518284
+Epoch : 21/100, Step 100/448
+Epoch : 21/100, Step 200/448
+Epoch : 21/100, Step 300/448
+Epoch : 21/100, Step 400/448
+At epoch : 21 	Accuracy on test-set is : 0.464474797249
+Epoch : 22/100, Step 100/448
+Epoch : 22/100, Step 200/448
+Epoch : 22/100, Step 300/448
+Epoch : 22/100, Step 400/448
+At epoch : 22 	Accuracy on test-set is : 0.470883250237
+Epoch : 23/100, Step 100/448
+Epoch : 23/100, Step 200/448
+Epoch : 23/100, Step 300/448
+Epoch : 23/100, Step 400/448
+At epoch : 23 	Accuracy on test-set is : 0.463081628084
+Epoch : 24/100, Step 100/448
+Epoch : 24/100, Step 200/448
+Epoch : 24/100, Step 300/448
+Epoch : 24/100, Step 400/448
+At epoch : 24 	Accuracy on test-set is : 0.467261075974
+Epoch : 25/100, Step 100/448
+Epoch : 25/100, Step 200/448
+Epoch : 25/100, Step 300/448
+Epoch : 25/100, Step 400/448
+At epoch : 25 	Accuracy on test-set is : 0.464196145535
+Epoch : 26/100, Step 100/448
+Epoch : 26/100, Step 200/448
+Epoch : 26/100, Step 300/448
+Epoch : 26/100, Step 400/448
+At epoch : 26 	Accuracy on test-set is : 0.448592931032
+Epoch : 27/100, Step 100/448
+Epoch : 27/100, Step 200/448
+Epoch : 27/100, Step 300/448
+Epoch : 27/100, Step 400/448
+At epoch : 27 	Accuracy on test-set is : 0.468096971512
+Epoch : 28/100, Step 100/448
+Epoch : 28/100, Step 200/448
+Epoch : 28/100, Step 300/448
+Epoch : 28/100, Step 400/448
+At epoch : 28 	Accuracy on test-set is : 0.471161872149
+Epoch : 29/100, Step 100/448
+Epoch : 29/100, Step 200/448
+Epoch : 29/100, Step 300/448
+Epoch : 29/100, Step 400/448
+At epoch : 29 	Accuracy on test-set is : 0.471440523863
+Epoch : 30/100, Step 100/448
+Epoch : 30/100, Step 200/448
+Epoch : 30/100, Step 300/448
+Epoch : 30/100, Step 400/448
+At epoch : 30 	Accuracy on test-set is : 0.478406250477
+Epoch : 31/100, Step 100/448
+Epoch : 31/100, Step 200/448
+Epoch : 31/100, Step 300/448
+Epoch : 31/100, Step 400/448
+At epoch : 31 	Accuracy on test-set is : 0.47561994195
+Epoch : 32/100, Step 100/448
+Epoch : 32/100, Step 200/448
+Epoch : 32/100, Step 300/448
+Epoch : 32/100, Step 400/448
+At epoch : 32 	Accuracy on test-set is : 0.513513505459
+Epoch : 33/100, Step 100/448
+Epoch : 33/100, Step 200/448
+Epoch : 33/100, Step 300/448
+Epoch : 33/100, Step 400/448
+At epoch : 33 	Accuracy on test-set is : 0.530231237411
+Epoch : 34/100, Step 100/448
+Epoch : 34/100, Step 200/448
+Epoch : 34/100, Step 300/448
+Epoch : 34/100, Step 400/448
+At epoch : 34 	Accuracy on test-set is : 0.526051819324
+Epoch : 35/100, Step 100/448
+Epoch : 35/100, Step 200/448
+Epoch : 35/100, Step 300/448
+Epoch : 35/100, Step 400/448
+At epoch : 35 	Accuracy on test-set is : 0.519086122513
+Epoch : 36/100, Step 100/448
+Epoch : 36/100, Step 200/448
+Epoch : 36/100, Step 300/448
+Epoch : 36/100, Step 400/448
+At epoch : 36 	Accuracy on test-set is : 0.521872401237
+Epoch : 37/100, Step 100/448
+Epoch : 37/100, Step 200/448
+Epoch : 37/100, Step 300/448
+Epoch : 37/100, Step 400/448
+At epoch : 37 	Accuracy on test-set is : 0.526887714863
+Epoch : 38/100, Step 100/448
+Epoch : 38/100, Step 200/448
+Epoch : 38/100, Step 300/448
+Epoch : 38/100, Step 400/448
+At epoch : 38 	Accuracy on test-set is : 0.521315157413
+Epoch : 39/100, Step 100/448
+Epoch : 39/100, Step 200/448
+Epoch : 39/100, Step 300/448
+Epoch : 39/100, Step 400/448
+At epoch : 39 	Accuracy on test-set is : 0.531903028488
+Epoch : 40/100, Step 100/448
+Epoch : 40/100, Step 200/448
+Epoch : 40/100, Step 300/448
+Epoch : 40/100, Step 400/448
+At epoch : 40 	Accuracy on test-set is : 0.53106713295
+Epoch : 41/100, Step 100/448
+Epoch : 41/100, Step 200/448
+Epoch : 41/100, Step 300/448
+Epoch : 41/100, Step 400/448
+At epoch : 41 	Accuracy on test-set is : 0.536918342113
+Epoch : 42/100, Step 100/448
+Epoch : 42/100, Step 200/448
+Epoch : 42/100, Step 300/448
+Epoch : 42/100, Step 400/448
+At epoch : 42 	Accuracy on test-set is : 0.534410715103
+Epoch : 43/100, Step 100/448
+Epoch : 43/100, Step 200/448
+Epoch : 43/100, Step 300/448
+Epoch : 43/100, Step 400/448
+At epoch : 43 	Accuracy on test-set is : 0.536918342113
+Epoch : 44/100, Step 100/448
+Epoch : 44/100, Step 200/448
+Epoch : 44/100, Step 300/448
+Epoch : 44/100, Step 400/448
+At epoch : 44 	Accuracy on test-set is : 0.541933715343
+Epoch : 45/100, Step 100/448
+Epoch : 45/100, Step 200/448
+Epoch : 45/100, Step 300/448
+Epoch : 45/100, Step 400/448
+At epoch : 45 	Accuracy on test-set is : 0.533853411674
+Epoch : 46/100, Step 100/448
+Epoch : 46/100, Step 200/448
+Epoch : 46/100, Step 300/448
+Epoch : 46/100, Step 400/448
+At epoch : 46 	Accuracy on test-set is : 0.541097819805
+Epoch : 47/100, Step 100/448
+Epoch : 47/100, Step 200/448
+Epoch : 47/100, Step 300/448
+Epoch : 47/100, Step 400/448
+At epoch : 47 	Accuracy on test-set is : 0.539704680443
+Epoch : 48/100, Step 100/448
+Epoch : 48/100, Step 200/448
+Epoch : 48/100, Step 300/448
+Epoch : 48/100, Step 400/448
+At epoch : 48 	Accuracy on test-set is : 0.533853411674
+Epoch : 49/100, Step 100/448
+Epoch : 49/100, Step 200/448
+Epoch : 49/100, Step 300/448
+Epoch : 49/100, Step 400/448
+At epoch : 49 	Accuracy on test-set is : 0.543605446815
+Epoch : 50/100, Step 100/448
+Epoch : 50/100, Step 200/448
+Epoch : 50/100, Step 300/448
+Epoch : 50/100, Step 400/448
+At epoch : 50 	Accuracy on test-set is : 0.542212307453
+Epoch : 51/100, Step 100/448
+Epoch : 51/100, Step 200/448
+Epoch : 51/100, Step 300/448
+Epoch : 51/100, Step 400/448
+At epoch : 51 	Accuracy on test-set is : 0.538311481476
+Epoch : 52/100, Step 100/448
+Epoch : 52/100, Step 200/448
+Epoch : 52/100, Step 300/448
+Epoch : 52/100, Step 400/448
+At epoch : 52 	Accuracy on test-set is : 0.551128447056
+Epoch : 53/100, Step 100/448
+Epoch : 53/100, Step 200/448
+Epoch : 53/100, Step 300/448
+Epoch : 53/100, Step 400/448
+At epoch : 53 	Accuracy on test-set is : 0.551964342594
+Epoch : 54/100, Step 100/448
+Epoch : 54/100, Step 200/448
+Epoch : 54/100, Step 300/448
+Epoch : 54/100, Step 400/448
+At epoch : 54 	Accuracy on test-set is : 0.548063516617
+Epoch : 55/100, Step 100/448
+Epoch : 55/100, Step 200/448
+Epoch : 55/100, Step 300/448
+Epoch : 55/100, Step 400/448
+At epoch : 55 	Accuracy on test-set is : 0.548620760441
+Epoch : 56/100, Step 100/448
+Epoch : 56/100, Step 200/448
+Epoch : 56/100, Step 300/448
+Epoch : 56/100, Step 400/448
+At epoch : 56 	Accuracy on test-set is : 0.547506272793
+Epoch : 57/100, Step 100/448
+Epoch : 57/100, Step 200/448
+Epoch : 57/100, Step 300/448
+Epoch : 57/100, Step 400/448
+At epoch : 57 	Accuracy on test-set is : 0.549178063869
+Epoch : 58/100, Step 100/448
+Epoch : 58/100, Step 200/448
+Epoch : 58/100, Step 300/448
+Epoch : 58/100, Step 400/448
+At epoch : 58 	Accuracy on test-set is : 0.548620760441
+Epoch : 59/100, Step 100/448
+Epoch : 59/100, Step 200/448
+Epoch : 59/100, Step 300/448
+Epoch : 59/100, Step 400/448
+At epoch : 59 	Accuracy on test-set is : 0.539426028728
+Epoch : 60/100, Step 100/448
+Epoch : 60/100, Step 200/448
+Epoch : 60/100, Step 300/448
+Epoch : 60/100, Step 400/448
+At epoch : 60 	Accuracy on test-set is : 0.539983272552
+Epoch : 61/100, Step 100/448
+Epoch : 61/100, Step 200/448
+Epoch : 61/100, Step 300/448
+Epoch : 61/100, Step 400/448
+At epoch : 61 	Accuracy on test-set is : 0.540261924267
+Epoch : 62/100, Step 100/448
+Epoch : 62/100, Step 200/448
+Epoch : 62/100, Step 300/448
+Epoch : 62/100, Step 400/448
+At epoch : 62 	Accuracy on test-set is : 0.539147377014
+Epoch : 63/100, Step 100/448
+Epoch : 63/100, Step 200/448
+Epoch : 63/100, Step 300/448
+Epoch : 63/100, Step 400/448
+At epoch : 63 	Accuracy on test-set is : 0.549456655979
+Epoch : 64/100, Step 100/448
+Epoch : 64/100, Step 200/448
+Epoch : 64/100, Step 300/448
+Epoch : 64/100, Step 400/448
+At epoch : 64 	Accuracy on test-set is : 0.549735307693
+Epoch : 65/100, Step 100/448
+Epoch : 65/100, Step 200/448
+Epoch : 65/100, Step 300/448
+Epoch : 65/100, Step 400/448
+At epoch : 65 	Accuracy on test-set is : 0.549735307693
+Epoch : 66/100, Step 100/448
+Epoch : 66/100, Step 200/448
+Epoch : 66/100, Step 300/448
+Epoch : 66/100, Step 400/448
+At epoch : 66 	Accuracy on test-set is : 0.54611313343
+Epoch : 67/100, Step 100/448
+Epoch : 67/100, Step 200/448
+Epoch : 67/100, Step 300/448
+Epoch : 67/100, Step 400/448
+At epoch : 67 	Accuracy on test-set is : 0.536639750004
+Epoch : 68/100, Step 100/448
+Epoch : 68/100, Step 200/448
+Epoch : 68/100, Step 300/448
+Epoch : 68/100, Step 400/448
+At epoch : 68 	Accuracy on test-set is : 0.540819168091
+Epoch : 69/100, Step 100/448
+Epoch : 69/100, Step 200/448
+Epoch : 69/100, Step 300/448
+Epoch : 69/100, Step 400/448
+At epoch : 69 	Accuracy on test-set is : 0.547506272793
+Epoch : 70/100, Step 100/448
+Epoch : 70/100, Step 200/448
+Epoch : 70/100, Step 300/448
+Epoch : 70/100, Step 400/448
+At epoch : 70 	Accuracy on test-set is : 0.547784924507
+Epoch : 71/100, Step 100/448
+Epoch : 71/100, Step 200/448
+Epoch : 71/100, Step 300/448
+Epoch : 71/100, Step 400/448
+At epoch : 71 	Accuracy on test-set is : 0.543048202991
+Epoch : 72/100, Step 100/448
+Epoch : 72/100, Step 200/448
+Epoch : 72/100, Step 300/448
+Epoch : 72/100, Step 400/448
+At epoch : 72 	Accuracy on test-set is : 0.544441342354
+Epoch : 73/100, Step 100/448
+Epoch : 73/100, Step 200/448
+Epoch : 73/100, Step 300/448
+Epoch : 73/100, Step 400/448
+At epoch : 73 	Accuracy on test-set is : 0.543605446815
+Epoch : 74/100, Step 100/448
+Epoch : 74/100, Step 200/448
+Epoch : 74/100, Step 300/448
+Epoch : 74/100, Step 400/448
+At epoch : 74 	Accuracy on test-set is : 0.53859013319
+Epoch : 75/100, Step 100/448
+Epoch : 75/100, Step 200/448
+Epoch : 75/100, Step 300/448
+Epoch : 75/100, Step 400/448
+At epoch : 75 	Accuracy on test-set is : 0.543605446815
+Epoch : 76/100, Step 100/448
+Epoch : 76/100, Step 200/448
+Epoch : 76/100, Step 300/448
+Epoch : 76/100, Step 400/448
+At epoch : 76 	Accuracy on test-set is : 0.541655063629
+Epoch : 77/100, Step 100/448
+Epoch : 77/100, Step 200/448
+Epoch : 77/100, Step 300/448
+Epoch : 77/100, Step 400/448
+At epoch : 77 	Accuracy on test-set is : 0.547506272793
+Epoch : 78/100, Step 100/448
+Epoch : 78/100, Step 200/448
+Epoch : 78/100, Step 300/448
+Epoch : 78/100, Step 400/448
+At epoch : 78 	Accuracy on test-set is : 0.54388409853
+Epoch : 79/100, Step 100/448
+Epoch : 79/100, Step 200/448
+Epoch : 79/100, Step 300/448
+Epoch : 79/100, Step 400/448
+At epoch : 79 	Accuracy on test-set is : 0.556979656219
+Epoch : 80/100, Step 100/448
+Epoch : 80/100, Step 200/448
+Epoch : 80/100, Step 300/448
+Epoch : 80/100, Step 400/448
+At epoch : 80 	Accuracy on test-set is : 0.540819168091
+Epoch : 81/100, Step 100/448
+Epoch : 81/100, Step 200/448
+Epoch : 81/100, Step 300/448
+Epoch : 81/100, Step 400/448
+At epoch : 81 	Accuracy on test-set is : 0.55140709877
+Epoch : 82/100, Step 100/448
+Epoch : 82/100, Step 200/448
+Epoch : 82/100, Step 300/448
+Epoch : 82/100, Step 400/448
+At epoch : 82 	Accuracy on test-set is : 0.546670377254
+Epoch : 83/100, Step 100/448
+Epoch : 83/100, Step 200/448
+Epoch : 83/100, Step 300/448
+Epoch : 83/100, Step 400/448
+At epoch : 83 	Accuracy on test-set is : 0.549456655979
+Epoch : 84/100, Step 100/448
+Epoch : 84/100, Step 200/448
+Epoch : 84/100, Step 300/448
+Epoch : 84/100, Step 400/448
+At epoch : 84 	Accuracy on test-set is : 0.547784924507
+Epoch : 85/100, Step 100/448
+Epoch : 85/100, Step 200/448
+Epoch : 85/100, Step 300/448
+Epoch : 85/100, Step 400/448
+At epoch : 85 	Accuracy on test-set is : 0.55920869112
+Epoch : 86/100, Step 100/448
+Epoch : 86/100, Step 200/448
+Epoch : 86/100, Step 300/448
+Epoch : 86/100, Step 400/448
+At epoch : 86 	Accuracy on test-set is : 0.553078830242
+Epoch : 87/100, Step 100/448
+Epoch : 87/100, Step 200/448
+Epoch : 87/100, Step 300/448
+Epoch : 87/100, Step 400/448
+At epoch : 87 	Accuracy on test-set is : 0.549178063869
+Epoch : 88/100, Step 100/448
+Epoch : 88/100, Step 200/448
+Epoch : 88/100, Step 300/448
+Epoch : 88/100, Step 400/448
+At epoch : 88 	Accuracy on test-set is : 0.555586516857
+Epoch : 89/100, Step 100/448
+Epoch : 89/100, Step 200/448
+Epoch : 89/100, Step 300/448
+Epoch : 89/100, Step 400/448
+At epoch : 89 	Accuracy on test-set is : 0.542769551277
+Epoch : 90/100, Step 100/448
+Epoch : 90/100, Step 200/448
+Epoch : 90/100, Step 300/448
+Epoch : 90/100, Step 400/448
+At epoch : 90 	Accuracy on test-set is : 0.549178063869
+Epoch : 91/100, Step 100/448
+Epoch : 91/100, Step 200/448
+Epoch : 91/100, Step 300/448
+Epoch : 91/100, Step 400/448
+At epoch : 91 	Accuracy on test-set is : 0.556701004505
+Epoch : 92/100, Step 100/448
+Epoch : 92/100, Step 200/448
+Epoch : 92/100, Step 300/448
+Epoch : 92/100, Step 400/448
+At epoch : 92 	Accuracy on test-set is : 0.548620760441
+Epoch : 93/100, Step 100/448
+Epoch : 93/100, Step 200/448
+Epoch : 93/100, Step 300/448
+Epoch : 93/100, Step 400/448
+At epoch : 93 	Accuracy on test-set is : 0.546949028969
+Epoch : 94/100, Step 100/448
+Epoch : 94/100, Step 200/448
+Epoch : 94/100, Step 300/448
+Epoch : 94/100, Step 400/448
+At epoch : 94 	Accuracy on test-set is : 0.552800238132
+Epoch : 95/100, Step 100/448
+Epoch : 95/100, Step 200/448
+Epoch : 95/100, Step 300/448
+Epoch : 95/100, Step 400/448
+At epoch : 95 	Accuracy on test-set is : 0.550849795341
+Epoch : 96/100, Step 100/448
+Epoch : 96/100, Step 200/448
+Epoch : 96/100, Step 300/448
+Epoch : 96/100, Step 400/448
+At epoch : 96 	Accuracy on test-set is : 0.550849795341
+Epoch : 97/100, Step 100/448
+Epoch : 97/100, Step 200/448
+Epoch : 97/100, Step 300/448
+Epoch : 97/100, Step 400/448
+At epoch : 97 	Accuracy on test-set is : 0.550849795341
+Epoch : 98/100, Step 100/448
+Epoch : 98/100, Step 200/448
+Epoch : 98/100, Step 300/448
+Epoch : 98/100, Step 400/448
+At epoch : 98 	Accuracy on test-set is : 0.548620760441
+Epoch : 99/100, Step 100/448
+Epoch : 99/100, Step 200/448
+Epoch : 99/100, Step 300/448
+Epoch : 99/100, Step 400/448
+At epoch : 99 	Accuracy on test-set is : 0.552800238132
+Epoch : 100/100, Step 100/448
+Epoch : 100/100, Step 200/448
+Epoch : 100/100, Step 300/448
+Epoch : 100/100, Step 400/448
+At epoch : 100 	Accuracy on test-set is : 0.556701004505
+WARNING:tensorflow:From /usr/local/lib/python2.7/dist-packages/tensorflow/python/tools/freeze_graph.py:249: __init__ (from tensorflow.python.platform.gfile) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.gfile.GFile.
+WARNING:tensorflow:From /usr/local/lib/python2.7/dist-packages/tensorflow/python/tools/freeze_graph.py:127: checkpoint_exists (from tensorflow.python.training.checkpoint_management) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use standard file APIs to check for files with this prefix.
+WARNING:tensorflow:From /usr/local/lib/python2.7/dist-packages/tensorflow/python/tools/freeze_graph.py:232: convert_variables_to_constants (from tensorflow.python.framework.graph_util_impl) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.compat.v1.graph_util.convert_variables_to_constants
+WARNING:tensorflow:From /usr/local/lib/python2.7/dist-packages/tensorflow/python/framework/graph_util_impl.py:245: extract_sub_graph (from tensorflow.python.framework.graph_util_impl) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.compat.v1.graph_util.extract_sub_graph
+saaquib@saaquib:~/geWork/ML_AI/facialRecognition$

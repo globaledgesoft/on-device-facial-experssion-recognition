@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Facial Expression Recognition</string>
+    <string name="request_permission">This sample needs camera permission.</string>
+    <string name="toast_camera_permission">Camera permission is required for this app. Please go to App info and enable Camera permission.</string>
+    <string name="runtime_error">No available Runtime found!</string>
+    <string name="error_camera">Camera Error</string>
+    <string name="error_neural_network">No NN loaded, or image size different than tensor size</string>
+    <string name="toast_failed">Failed</string>
+
+</resources>
