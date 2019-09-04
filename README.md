@@ -32,7 +32,7 @@ Below are the items used in the project.
 5. Power Cable
 
 ## Hardware Setup
-![Qualcomm Snapdragon HDK image](https://github.com/jinka2015/on-device-facial-experssion-recognition/blob/master/android-app/app/src/main/res/drawable/snapdragon_hdk.jpg)
+![Qualcomm Snapdragon HDK image](./android-app/app/src/main/res/drawable/snapdragon_hdk.jpg)
 
 ## How does it work?
 The application opens a camera preview(restricted only for front camera), collects all the frames, detects faces present in the frames, crops the face and converts it to bitmap. The network is built via Neural Network builder by passing model file in dlc format as the input. The face bitmap is then given to model for inference, which returns expression of captured faces.
@@ -44,9 +44,9 @@ The application opens a camera preview(restricted only for front camera), collec
 * Switch on the display and choose the USB connection option to File Transfer
 * Check if adb is installed in the windows/linux device, if not follow the below instructions in the below link to install
    https://developer.android.com/studio/command-line/adb.html.
-* Use the below command to install the apk the connected device with help of adb. [Download APK(Debug)](QC_DashCam/app/build/outputs/apk/debug)
+* Use the below command to install the apk the connected device with help of adb. [Download APK(Debug)](./android-app/Output/app-debug.apk)
    $ adb install app-debug.apk
 * Search the Facial Expression Recognition app in the app menu and launch the application
 
 ## Screenshot of the application
-<img src="https://github.com/jinka2015/on-device-facial-experssion-recognition/blob/master/android-app/app/src/main/res/drawable/fer_screenshot.png" widht=640 height=360 />
+<img src="./android-app/app/src/main/res/drawable/fer_screenshot.png" widht=640 height=360 />
